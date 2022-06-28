@@ -1,7 +1,7 @@
 <route>
 {
     meta: {
-        layout: false
+        layout: 'example'
     }
 }
 </route>

@@ -5,24 +5,13 @@ import useTokenStore from '@/store/modules/settings'
 
 let routes = []
 
-// const routesContext = import.meta.globEager('./modules/*.js')
-// Object.keys(routesContext).forEach(v => {
-//     routes.push(routesContext[v].default)
-// })
-// routes.push({
-//     path: '/:pathMatch(.*)*',
-//     component: () => import('@/views/[...all].vue'),
-//     meta: {
-//         title: '找不到页面'
-//     }
-// })
-// routes = routes.flat()
-
 import { setupLayouts } from 'virtual:generated-layouts'
 import generatedRoutes from 'virtual:generated-pages'
 generatedRoutes.forEach(v => {
     routes.push(v?.meta?.layout != false ? setupLayouts([v])[0] : v)
 })
+
+console.log('路由: ', routes)
 
 const router = createRouter({
     history: createWebHashHistory(),

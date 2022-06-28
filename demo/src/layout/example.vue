@@ -1,5 +1,5 @@
 <template>
-    我是index布局
+    我是example布局
     <RouterView />
     
 </template>
