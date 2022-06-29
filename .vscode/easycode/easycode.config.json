@@ -16,7 +16,7 @@
                 {
                     "enabled": true,
                     "moduleSplit": true,
-                    "templateName": "frontend/vue_page.njk",
+                    "templateName": "vue_page.njk",
                     "needPrefix": false,
                     "outFileType": "index.vue",
                     "outPath": "/src/views"
@@ -24,7 +24,7 @@
                 {
                     "enabled": true,
                     "moduleSplit": true,
-                    "templateName": "frontend/vue_schema.njk",
+                    "templateName": "vue_schema.njk",
                     "needPrefix": false,
                     "outFileType": "schema.ts",
                     "outPath": "/src/views"
@@ -32,7 +32,7 @@
                 {
                     "enabled": true,
                     "moduleSplit": true,
-                    "templateName": "frontend/vue_schema_json.njk",
+                    "templateName": "vue_schema_json.njk",
                     "needPrefix": false,
                     "outFileType": "schema.json",
                     "outPath": "/src/views"
@@ -40,7 +40,7 @@
                 {
                     "enabled": true,
                     "moduleSplit": true,
-                    "templateName": "frontend/vue_nav.njk",
+                    "templateName": "vue_nav.njk",
                     "needPrefix": false,
                     "outFileType": "nav.vue",
                     "outPath": "/src/views"
@@ -48,7 +48,7 @@
                 {
                     "enabled": true,
                     "moduleSplit": true,
-                    "templateName": "frontend/vue_router.njk",
+                    "templateName": "vue_router.njk",
                     "needPrefix": false,
                     "outFileType": "router.ts",
                     "outPath": "/src/views"
@@ -56,7 +56,7 @@
                 {
                     "enabled": true,
                     "moduleSplit": true,
-                    "templateName": "frontend/vue_mock.njk",
+                    "templateName": "vue_mock.njk",
                     "needPrefix": false,
                     "outFileType": "mock.ts",
                     "outPath": "/src/views"
@@ -64,7 +64,7 @@
                 {
                     "enabled": true,
                     "moduleSplit": true,
-                    "templateName": "frontend/vue_locale.njk",
+                    "templateName": "vue_locale.njk",
                     "needPrefix": true,
                     "outFileType": ".zh-CN.ts",
                     "outPath": "/src/views"
@@ -72,7 +72,7 @@
                 {
                     "enabled": true,
                     "moduleSplit": true,
-                    "templateName": "frontend/vue_locale.njk",
+                    "templateName": "vue_locale.njk",
                     "needPrefix": true,
                     "outFileType": ".en-US.ts",
                     "outPath": "/src/views"
@@ -80,7 +80,7 @@
                 {
                     "enabled": true,
                     "moduleSplit": true,
-                    "templateName": "frontend/vue_api.njk",
+                    "templateName": "vue_api.njk",
                     "needPrefix": false,
                     "outFileType": "api.ts",
                     "outPath": "/src/views"
@@ -148,7 +148,7 @@
                 {
                     "enabled": true,
                     "moduleSplit": true,
-                    "templateName": "frontend/vue_store.njk",
+                    "templateName": "vue_store.njk",
                     "outFileType": ".store.ts",
                     "outPath": "/src/store"
                 }
